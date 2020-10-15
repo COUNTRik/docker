@@ -43,6 +43,14 @@ P.S. Все действия были протестированы на Vagrantf
 
 	</html>
 
+Осталось отправить наш образ в DockerHub.
+Создав учетную запись мы отправляем наш образ в созданный нами репозиторий в DockerHub.
+	
+	[root@docker vagrant]# docker login
+	[root@docker vagrant]# docker push countrik/nginx-alpine
+	
+Зугрузить наш образ можно командой
+	[root@docker vagrant]# docker pull countrik/nginx-alpine
 
 # Разница между контейнером и образом
 
