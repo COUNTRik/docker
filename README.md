@@ -50,6 +50,7 @@ P.S. Все действия были протестированы на Vagrantf
 	[root@docker vagrant]# docker push countrik/nginx-alpine
 	
 Зугрузить наш образ можно командой
+	
 	[root@docker vagrant]# docker pull countrik/nginx-alpine
 
 # Разница между контейнером и образом
